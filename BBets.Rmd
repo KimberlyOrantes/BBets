@@ -44,7 +44,7 @@ The function will be given a class_size by number of students, odds, and Number_
 ```{r}
 results <- (as.numeric (1:200))
 for(i in results){
-  results[i] <- BrLw(32, 2, 637)
+  results[i] <- BrLw(35, 2, 637)
 }
 t.test(results)
 
@@ -65,7 +65,7 @@ A 95% confidence interval of Brownlow's earnings is `r s.results[5]` to `r s.res
 ```{r}
 results <- (as.numeric (1:200))
 for(i in results){
-  results[i] <- BrLw(32, 3.08, 637)
+  results[i] <- BrLw(35, 4.39, 637)
 }
 t.test(results)
 
